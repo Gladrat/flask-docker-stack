@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+      <meta charset="utf-8">
+      <title>{% block title %}{% endblock %} - Flask stack</title>
+      <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/main.css') }}">
+      {# <script src="/ressources/js/script.js"></script> #}
+    {% block head %}
+    {% endblock %}
+  </head> 
+  <body>
+    <div id="content">
+      {% block content %}{% endblock content %}
+    </div>
+  </body>
+</html>
