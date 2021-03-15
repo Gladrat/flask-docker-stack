@@ -19,7 +19,7 @@ Yet another Flask Docker stack for boostraping projects.
 
 * Port mapping : 5000:5000
 * Live edition in `./src`
-* Result : `http://localhost:5000`
+* Result : http://localhost:5000
 
 ## Project skeleton (./src)
 
